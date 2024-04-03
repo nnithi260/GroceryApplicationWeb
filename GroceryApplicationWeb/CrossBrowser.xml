@@ -1,0 +1,19 @@
+<suite name="GroceryApplication" parallel="tests" thread-count="2">
+	<test name="chromeTest">
+		<parameter name="Browser" value="chrome"></parameter>
+	
+		<classes>
+			<class name="testNGBasics.logInPageTest"></class>
+				
+		</classes>
+	</test>	
+	<test name="firefoxTest">
+		<parameter name="Browser" value="firefox"></parameter>
+	
+		<classes>
+			<class name="testNGBasics.logInPageTest"></class>
+			<class name="testNGBasics.logInPageTest"></class>		
+		</classes>
+	</test>	
+</suite>
+
