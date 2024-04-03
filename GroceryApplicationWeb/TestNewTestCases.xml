@@ -6,7 +6,7 @@
 		</listeners> -->
 		<parameter name="Browser" value="chrome"></parameter>
 		<classes>
-			<class name="testCase.logInPageTest"></class>
+			<class name="testCase.AdminUsersTest"></class>
 		</classes>
 	</test>
 </suite>
