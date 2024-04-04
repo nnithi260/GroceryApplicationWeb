@@ -1,0 +1,21 @@
+<suite name="GroceryApplicationWeb" parallel="tests" thread-count="1">
+	<test name="chromeTest">
+		<listeners>
+			<listener class-name="utilities.RetryListener" />
+			<listener class-name="utilities.ExtenetReport" />
+		</listeners> 
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="testCase.AdminUsersTest"></class>
+			<class name="testCase.logInPageTest"></class>
+			<class name="testCase.manageDeliveryBoyTest"></class>
+			<class name="testCase.ManageExpenseTest"></class>
+			<class name="testCase.ManageLocationTest"></class>
+			<class name="testCase.ManageNewsTest"></class>
+			<class name="testCase.ManageSliderTest"></class>
+			<class name="testCase.MobileSliderTest"></class>
+			<class name="testCase.PushNotificationTest"></class>
+		</classes>
+    </test>
+</suite>
+	

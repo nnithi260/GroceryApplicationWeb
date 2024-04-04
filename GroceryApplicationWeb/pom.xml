@@ -24,7 +24,7 @@
 				<version>3.2.5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>TestNewTestCases.xml</suiteXmlFile>
+						<suiteXmlFile>AllTest.xml</suiteXmlFile>
 </suiteXmlFiles>
 				</configuration>
 			</plugin>
